@@ -1,2 +1,3 @@
 # entwurf-15
-Entwurf
+
+Unverbindlicher Entwurf (noindex) von Leon Oßendorf für Bedachung M. Terbrack, Gronau-Epe. Kein offizieller Auftritt.
