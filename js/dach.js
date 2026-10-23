@@ -13,6 +13,10 @@
       el.classList.toggle('an', an);
       if (el.hasAttribute('aria-pressed')) el.setAttribute('aria-pressed', an ? 'true' : 'false');
     });
+    var chip = $('.stelle[data-teil="' + teil + '"]'), leiste = $('.stellen');
+    if (chip && leiste && leiste.scrollWidth > leiste.clientWidth) {
+      leiste.scrollTo({ left: chip.offsetLeft - (leiste.clientWidth - chip.offsetWidth) / 2, behavior: 'smooth' });
+    }
     $('#tafel-nr').textContent = d.nr;
     $('#tafel-titel').textContent = d.titel;
     $('#tafel-frage').textContent = d.frage;
